@@ -1,0 +1,172 @@
+body {
+    background-color: lemonchiffon;
+    font: lighter 18px 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+}
+
+.clr {
+    clear:both;
+}
+
+a:visited {
+    color:mediumpurple;
+}
+
+a:hover {
+    color: cadetblue;
+}
+
+p {
+    color:black;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+}
+
+.box-1 {
+    background-color:cornflowerblue;
+    border: 2px black solid;
+    padding: 10px;
+}
+
+.box-1 h1 {
+    font: lighter 32px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.box-2 {
+    background-color:darksalmon;
+    border: 2px dotted;
+    padding: 10px;
+    margin: 20px;
+}
+
+.categories {
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    list-style: square;
+}
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 2px black;
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none
+}
+
+.button:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.block {
+    float:left;
+    width: 33.3%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: grey;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar p {
+    color: whitesmoke;
+}
+
+.p-box  {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+    background-image:url('lowtiergod.jpg');
+    background-position: -200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 40px;
+    left: 340px;    
+}
+
+.p-box h2 {
+    color: darkgreen;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;    
+}
+
+.fix-me {
+    position: fixed;
+    top: 350px;
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: blue;
+}
+
+.my-list li:nth-child(3) {
+    background: yellow;
+}
+
+.my-list li:nth-child(even) {
+    background: green;
+}
